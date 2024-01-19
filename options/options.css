@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+    font: bold;
+    color: rgb(204, 203, 203);
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 45px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif    
+}
+
+h2{
+   text-align: center;
+    font-size: 30px;
+    margin: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* padding: 10px; */
+    padding-bottom : 20px;
+}
+
+#inp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#time-options {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    outline: none;
+    border: none;
+    margin: 10px;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#save-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: rgb(241, 239, 239);
+    color: rgb(6, 6, 6);
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#save-btn:hover{
+    transform: scale(1.1);
+    background-color: rgb(177, 67, 67);
+    color: rgb(241, 239, 239);
+    cursor: pointer;
+}
+#save-btn:active {
+    transform: scale(0.95); /* Make the button slightly smaller */
+    background-color: rgb(150, 50, 50); /* Change the background color */
+}

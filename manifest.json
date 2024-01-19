@@ -1,0 +1,34 @@
+{
+    "manifest_version":3,
+    "name": "Productivity Booster",
+    "icons":{
+        "16": "icon32.png",
+        "48": "icon32.png",
+        "128": "icon32.png"
+        
+    },  
+    "version":"1.0.0",
+
+    "action":{
+        "default_popup":"popup/popup.html",
+        "default_title":"Productivity Booster",
+        "default_icon":"icon32.png"
+    },
+
+    "permissions":[
+        "tabs", 
+        "notifications", 
+        "storage" ,
+        "alarms",  
+        "activeTab"
+       
+    ],
+
+    "background":{
+        "service_worker":"background.js"
+    },
+
+   "options_page":"options/options.html"
+    
+   
+}
